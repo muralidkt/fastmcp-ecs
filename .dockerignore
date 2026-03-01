@@ -1,0 +1,30 @@
+# Infrastructure — not needed inside the container
+IaC/
+IaC/cdk.out/
+
+# Tests
+tests/
+
+# Version control
+.git/
+.gitignore
+
+# Docs & config
+*.md
+.env
+.env.*
+
+# Python artefacts
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
